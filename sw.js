@@ -1,6 +1,6 @@
 // Agenda — funcionamiento sin conexión.
 // Al cambiar index.html, sube el número de versión para que el iPhone descargue la nueva.
-const CACHE = 'agenda-v1';
+const CACHE = 'agenda-v3';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
